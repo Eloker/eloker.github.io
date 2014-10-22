@@ -2,5 +2,11 @@
 layout: default
 title: home
 ---
-
-{% include content.md %}
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
