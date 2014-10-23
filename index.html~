@@ -2,6 +2,11 @@
 layout: default
 title: home
 ---
+<<<<<<< HEAD
 <h1>Bonjour !</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<a href="about.html">Biographie</a>
 	
+=======
+
+>>>>>>> 9b57021858f972bf26cd9c1d88a9d7b0b004a07d
