@@ -38,15 +38,19 @@ Procédure pour la configuration de son environnement virtuel (à faire dans l'o
 
 --> Créer une clé SSH publique :
 - tuto : https://help.github.com/articles/generating-ssh-keys/ rubrique "Linux"
-- commande :	- ssh-keygen -t rsa -C "your_email@example.com" dans le dossier /home/xubuntu/
-		- eval "$(ssh-agent -s)"
-		- ssh-add ~/.ssh/id_rsa
-		- sudo apt-get install xclip
-		- xclip -sel clip < ~/.ssh/id_rsa.pub (Copie la clé dans le presse papier)
+- commande :
+- ssh-keygen -t rsa -C "your_email@example.com" dans le dossier /home/xubuntu/
+- eval "$(ssh-agent -s)"
+- ssh-add ~/.ssh/id_rsa
+- sudo apt-get install xclip
+- xclip -sel clip < ~/.ssh/id_rsa.pub (Copie la clé dans le presse papier)
 
 - Ajouter la clé SSH à son compte Github :
 	- Aller sur la page : https://github.com/settings/ssh
 	- Cliquer sur "Add"
 	- Donner le titre de votre choix et dans "key" copier le code du presse papier
 
-
+- git add . -A
+- git commit -m "comment"
+- git push origin master
+- git pull
