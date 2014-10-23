@@ -1,0 +1,8 @@
+---
+layout: default
+title: home
+---
+<div class="page">
+	<h1>Bienvenue</h1>
+	<p>Elodie Kerjouan<br/>21 ans</p>
+</div>
