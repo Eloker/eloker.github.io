@@ -14,7 +14,7 @@ Procédure pour la configuration de son environnement virtuel (à faire dans l'o
 - configuration du serveur apache:
 	- tuto: http://www.linux-france.org/prj/edu/archinet/systeme/ch16s02.html
 	- pour modifier le fichier apache2.conf, il est nécessaire d'installer un package avec la commande "sudo apt-get install gedit". 
-	- modifier le fichier "apache2.conf" dans /etc/apache2/ et modifier la ligne "<Directory /var/www/html> " par "<Directory /home/xubuntu/sites>" avec la commande "gedit apache2.conf " pour permettre d'accéder à son site depuis le navigateur.
+	- modifier le fichier "apache2.conf" dans /etc/apache2/ et modifier la ligne "Directory /var/www/html" par "Directory /home/xubuntu/sites" avec la commande "gedit apache2.conf " pour permettre d'accéder à son site depuis le navigateur.
 	- modifier le fichier 000-default.conf dans /etc/apache2/sites-available et modifier la ligne "DocumentRoot /var/www/html" par "DocumentRoot /home/xubuntu/sites"
 
 --> Installation de "Mysql":
